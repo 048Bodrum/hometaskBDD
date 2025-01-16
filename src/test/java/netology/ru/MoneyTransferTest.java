@@ -2,6 +2,7 @@ package netology.ru;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import static netology.ru.DashboardPage.getCardBalance;
 
 import static com.codeborne.selenide.Selenide.open;
 import static netology.ru.DataHelper.generateInvalidAmount;
@@ -11,8 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MoneyTransferTest {
     DashboardPage dashboardPage;
-    CardInfo firstCardInfo;
-    CardInfo secondCardInfo;
+    DataHelper.CardInfo firstCardInfo;
+    DataHelper.CardInfo secondCardInfo;
     int firstCardBalance;
     int secondCardBalance;
 
