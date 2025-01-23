@@ -1,9 +1,6 @@
 package netology.ru;
 
-
-//import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-//import netology.ru.DataHelper.AuthInfo;
 
 import static com.codeborne.selenide.Selenide.$;
 
