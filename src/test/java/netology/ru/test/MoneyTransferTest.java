@@ -1,12 +1,15 @@
-package netology.ru;
+package netology.ru.test;
 
+import netology.ru.data.DataHelper;
+import netology.ru.page.DashboardPage;
+import netology.ru.page.LoginPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
 import static com.codeborne.selenide.Selenide.open;
-import static netology.ru.DataHelper.generateInvalidAmount;
-import static netology.ru.DataHelper.generateValidAmount;
+import static netology.ru.data.DataHelper.generateInvalidAmount;
+import static netology.ru.data.DataHelper.generateValidAmount;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
